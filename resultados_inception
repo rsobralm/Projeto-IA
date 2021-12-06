@@ -1,0 +1,48 @@
+
+//RESULTADOS BATCH = 128 EPOCHS = 20
+                       precision    recall  f1-score   support
+
+               Bottle       0.87      0.65      0.74        89
+                  Can       0.87      0.61      0.72        56
+            Cigarette       0.95      0.92      0.94       134
+Plastic bag & wrapper       0.70      0.98      0.82       170
+                Straw       1.00      0.33      0.50        33
+
+             accuracy                           0.81       482
+            macro avg       0.88      0.70      0.74       482
+         weighted avg       0.84      0.81      0.80       482
+
+[[ 58   4   0  27   0]
+ [  6  34   0  16   0]
+ [  1   1 123   9   0]
+ [  2   0   2 166   0]
+ [  0   0   4  18  11]]
+Accuracy:  0.8132780082987552
+Precision:  0.8132780082987552
+------590s----------
+
+
+
+
+
+//RESULTADOS BATCH = 32 EPOCH = 100
+                      precision    recall  f1-score   support
+
+               Bottle       0.54      0.93      0.69        89
+                  Can       0.66      0.70      0.68        56
+            Cigarette       0.90      0.88      0.89       134
+Plastic bag & wrapper       0.90      0.64      0.75       170
+                Straw       0.94      0.52      0.67        33
+
+             accuracy                           0.76       482
+            macro avg       0.79      0.73      0.73       482
+         weighted avg       0.81      0.76      0.76       482
+
+[[ 83   3   1   2   0]
+ [ 13  39   1   3   0]
+ [ 10   2 118   3   1]
+ [ 41  13   7 109   0]
+ [  6   2   4   4  17]]
+Accuracy:  0.7593360995850622
+Precision:  0.7593360995850622
+--- 940.8695788383484 seconds ---
